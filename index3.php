@@ -62,7 +62,7 @@ include("dummydata.php");
   </ul>
 </div>
 <div id="content">
-  <table>
+<!--   <table>
 
     <tr>
       <td id="left_col">
@@ -83,7 +83,7 @@ include("dummydata.php");
       </div>
       </td>
     </tr>
-  </table>
+  </table> -->
 </div>
 
 <div id="footer"> template design by <a href="http://www.sixshootermedia.com">Six Shooter Media</a>.<br />
