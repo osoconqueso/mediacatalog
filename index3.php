@@ -58,7 +58,7 @@ include("dummydata.php");
           <input type="text" name="id_num_isbn">
           <input type="submit" name="btn" class="btn-style" value="submit" />
         </form></li>
-    <li><a href="#"><b>»</b>link :3</a></li>
+    <li><a href="#"><b>»</b>link :3</a></li>7
   </ul>
 </div>
 <div id="content">
@@ -69,7 +69,7 @@ include("dummydata.php");
       <div>
         <h3>books</h3>
           <?php
-          //books_list_view();
+          books_list_view();
           ?>
     </div>
     </td>
