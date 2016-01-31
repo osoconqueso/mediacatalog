@@ -69,7 +69,7 @@ include("dummydata.php");
       <div>
         <h3>books</h3>
           <?php
-          books_list_view();
+          //books_list_view();
           ?>
     </div>
     </td>
