@@ -1,0 +1,170 @@
+body {
+	background:#121212;
+	font:1em Trebuchet MS;
+	word-spacing:2px;
+	color:#545454;
+	margin:0;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+a {
+	color:#999;
+	border-bottom:1px dotted #232323;
+	text-decoration:none;
+	padding:2px 4px 2px 4px;
+}
+a:hover {
+	border-bottom:1px dotted #99CC33;
+	background:#101010;
+}
+
+h2 {
+	font:24px Arial, sans-serif;
+	color:#99CC33;
+	letter-spacing:-1px;
+	font-weight:normal;
+	margin:15px 0 15px 0;
+}
+h2.first {
+	margin:0 0 15px 0;
+}
+h2 a {
+	color:#99CC33;
+	text-decoration:none;
+	border:none;
+	padding:0;
+}
+h2 a:hover {
+	border:none;
+	background:none;
+}
+h3 {
+	font-size:1.2em;
+	color:#ccc;
+	font-weight:normal;
+	margin:15px 0 15px 0;
+}
+p {
+	line-height:24px;
+	margin:25px 0 25px 0;
+}
+#sidebar {
+	width:263px;
+	background:url(../images/sidebar.jpg) top left no-repeat;
+	float:left;
+	padding:20px 20px 50px 20px;
+}
+#sidebar p {
+	font-size:0.9em;
+}
+#sidebar a {
+	color:#ccc;
+	border:none;
+}
+#sidebar a:hover {
+	text-decoration:underline;
+	color:#eee;
+	border:none;
+}
+#sidebar h1 {
+	color:#fff;
+	font-size:1.7em;
+}
+#sidebar h1 a {
+	color:#fff;
+	text-decoration:none;
+	padding:0;
+}
+#sidebar h1 a:hover {
+	text-decoration:none;
+}
+.btn-style {
+	border : solid 2px #545454;
+	font: 13px Trebuchet MS;
+	color : #99CC33;
+	padding : 1px 3px;
+	background-color : #121212;
+}
+input[type="text"], textarea {
+	color: white;
+	font-family: Trebuchet MS;
+	border: solid 1px #545454;
+	background-color: #121212;
+}
+ol#nav {
+	margin:25px 15px 25px 30px;
+	font-size:1.3em;
+}
+ul li {
+	margin:15px 0 15px 0 !important;
+	margin:-10px 0;
+	list-style-type: none;
+}
+#nav a {
+	display:block;
+	margin:0;
+	color:#99CC33;
+	border:none;
+}
+#nav a b {
+	float:right;
+	display:none;
+	color:#333;
+}
+#nav a:hover {
+	background:none;
+	border:none;
+	text-decoration:none;
+}
+#nav a:hover b {
+	display:inline;
+}
+#content {
+	margin:0 10% 0 300px;
+	background:url(../images/content.jpg) top left no-repeat;
+	padding:20px;
+}
+#content ul {
+	margin:15px 15px 15px 15px;
+	list-style:none;
+}
+#content ul li {
+	margin:10px 0;
+	padding:0 0 0 15px;
+	background:url(../images/bp.gif) left no-repeat;
+}
+#content img {
+	padding:1px;
+	background:#000;
+	border:3px solid #333;
+}
+
+#left_col {
+	width: 50%;
+	vertical-align: top;
+}
+
+#right_col {
+	width: 50%; 
+	vertical-align: top; 
+}
+
+.postdata {
+	font:11px Verdana;
+	margin:-6px 0 -15px 0;
+	color:#777;
+}
+#footer {
+	float: bottom;
+/*	position: absolute;*/
+	width: 100%;
+	padding:30px;
+	text-align:center;
+	border-top:3px solid #333;
+	margin:50px 0 0 0;
+	background:#000;
+} 
