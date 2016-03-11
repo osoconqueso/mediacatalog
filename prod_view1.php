@@ -54,7 +54,7 @@ include("functions.php");
         create_dvd($title, $img_url, $item_desc, $id_num);
         ?>
         <script>
-            document.location="index3.php";
+            document.location="index3.php";   //redo this with php
         </script>
         <?php
       } else {

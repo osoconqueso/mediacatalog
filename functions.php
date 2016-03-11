@@ -112,7 +112,6 @@ function dvd_info_neat($upc) {
 }
 
 function is_assoc_array($array) {
-	//extracts array keys from $array and runs them through is_string and puts those keys in an array and counts the keys
   return count(array_filter(array_keys($array), 'is_string')) > 0;
 }
 
@@ -156,7 +155,7 @@ function books_list_view () {
         <?php
         foreach ($book_rows as $book) {
         ?>
-          <li class="expand_info"><a href="#"><?=$book['title']?></a>
+          <li class="expand_info"><a href="#"><?=$bo ok['title']?></a>
             <div class="info">
               <p><?=$book['author']?></p>
               <p><img src="<?=$book['img_url']?>"></p>
